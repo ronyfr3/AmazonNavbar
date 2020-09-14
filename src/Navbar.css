@@ -1,0 +1,87 @@
+img{
+   height: auto;
+   width: auto;
+   max-width: 170px;
+   max-height: 55px;
+   margin-left: 10px;
+   margin-right: 10px;
+
+  }
+.nav__text{
+    text-decoration: none;
+    color:white;
+    font-family: cursive;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+} 
+.nav__items{
+    background-color: black;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    position: sticky;
+    z-index: 100;
+}
+.nav__icon{
+    background-color: rgb(221, 124, 13);
+    padding:5px;
+    height:22px !important;
+    color: white;
+
+}
+.nav__icon:hover{
+    background-color: green;
+    cursor: pointer;
+}
+.nav__inputIcon{
+    flex: 1;
+    display: flex;
+}
+.nav__searchInput{
+    height: 12px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+/* links */
+.nav__links{
+    display: flex;
+    justify-content: space-evenly;
+}
+.navLink{
+    text-decoration: none;
+    color: white;
+}
+.navItems{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.navItem1{
+    font-size: 10px;
+}
+.navItem2{
+    font-size: 13px;
+    font-weight: 800;
+
+}
+.BasketIcon{
+    display: flex;
+    align-items: center;
+}
+.basketCount{
+    font-weight: 800;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+
+
+
+
+
+
